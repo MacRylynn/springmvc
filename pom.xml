@@ -12,6 +12,7 @@
         <module>dejavu-dao</module>
         <module>dejavu-service</module>
         <module>dejavu-web</module>
+        <module>dejavu-task</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -115,6 +116,11 @@
             <dependency>
                 <groupId>dejavu</groupId>
                 <artifactId>dejavu-web</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>dejavu</groupId>
+                <artifactId>dejavu-task</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <!-- mysql -->
